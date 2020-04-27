@@ -1,0 +1,360 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "covid india",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "NationalCasesIntent",
+          "slots": [],
+          "samples": [
+            "What is the current status",
+            "How many cases are there",
+            "What is the current number of cases"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "StateCasesIntent",
+          "slots": [
+            {
+              "name": "state",
+              "type": "India_States",
+              "samples": [
+                "West Bengal",
+                "Maharashtra",
+                "Delhi",
+                "Kerala",
+                "Gujarat"
+              ]
+            }
+          ],
+          "samples": [
+            "What is the current number of cases in {state}",
+            "How many cases are there in {state}",
+            "What is the current status in {state}"
+          ]
+        },
+        {
+          "name": "SMSIntent",
+          "slots": [],
+          "samples": [
+            "Send me an SMS",
+            "Send me information about covid nineteen",
+            "Send me information about coronavirus",
+            "Send additional links to me",
+            "Send additional resources to me"
+          ]
+        },
+        {
+          "name": "AddInfoIntent",
+          "slots": [
+            {
+              "name": "state",
+              "type": "India_States"
+            }
+          ],
+          "samples": [
+            "Give me additional data for {state}",
+            "Tell me more details about {state}",
+            "Extra details for {state}",
+            "Give me additional information of {state}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "id": "SK",
+              "name": {
+                "value": "Sikkim"
+              }
+            },
+            {
+              "id": "LD",
+              "name": {
+                "value": "Lakshadweep"
+              }
+            },
+            {
+              "id": "DD",
+              "name": {
+                "value": "Daman and Diu"
+              }
+            },
+            {
+              "id": "DN",
+              "name": {
+                "value": "Dadra and Nagar Haveli"
+              }
+            },
+            {
+              "id": "NL",
+              "name": {
+                "value": "Nagaland"
+              }
+            },
+            {
+              "id": "AR",
+              "name": {
+                "value": "Arunachal Pradesh"
+              }
+            },
+            {
+              "id": "MZ",
+              "name": {
+                "value": "Mizoram"
+              }
+            },
+            {
+              "id": "TR",
+              "name": {
+                "value": "Tripura"
+              }
+            },
+            {
+              "id": "MN",
+              "name": {
+                "value": "Manipur"
+              }
+            },
+            {
+              "id": "PY",
+              "name": {
+                "value": "Puducherry"
+              }
+            },
+            {
+              "id": "GA",
+              "name": {
+                "value": "Goa"
+              }
+            },
+            {
+              "id": "ML",
+              "name": {
+                "value": "Meghalaya"
+              }
+            },
+            {
+              "id": "AN",
+              "name": {
+                "value": "Andaman and Nicobar Islands"
+              }
+            },
+            {
+              "id": "LA",
+              "name": {
+                "value": "Ladakh"
+              }
+            },
+            {
+              "id": "CH",
+              "name": {
+                "value": "Chandigarh"
+              }
+            },
+            {
+              "id": "AS",
+              "name": {
+                "value": "Assam"
+              }
+            },
+            {
+              "id": "CT",
+              "name": {
+                "value": "Chhattisgarh"
+              }
+            },
+            {
+              "id": "HP",
+              "name": {
+                "value": "Himachal Pradesh"
+              }
+            },
+            {
+              "id": "JH",
+              "name": {
+                "value": "Jharkhand"
+              }
+            },
+            {
+              "id": "UT",
+              "name": {
+                "value": "Uttarakhand"
+              }
+            },
+            {
+              "id": "OR",
+              "name": {
+                "value": "Odisha"
+              }
+            },
+            {
+              "id": "BR",
+              "name": {
+                "value": "Bihar"
+              }
+            },
+            {
+              "id": "PB",
+              "name": {
+                "value": "Punjab"
+              }
+            },
+            {
+              "id": "HR",
+              "name": {
+                "value": "Haryana"
+              }
+            },
+            {
+              "id": "WB",
+              "name": {
+                "value": "West Bengal"
+              }
+            },
+            {
+              "id": "JK",
+              "name": {
+                "value": "Jammu and Kashmir"
+              }
+            },
+            {
+              "id": "KL",
+              "name": {
+                "value": "Kerala"
+              }
+            },
+            {
+              "id": "KA",
+              "name": {
+                "value": "Karnataka"
+              }
+            },
+            {
+              "id": "AP",
+              "name": {
+                "value": "Andhra Pradesh"
+              }
+            },
+            {
+              "id": "TG",
+              "name": {
+                "value": "Telangana"
+              }
+            },
+            {
+              "id": "UP",
+              "name": {
+                "value": "Uttar Pradesh"
+              }
+            },
+            {
+              "id": "MP",
+              "name": {
+                "value": "Madhya Pradesh"
+              }
+            },
+            {
+              "id": "TN",
+              "name": {
+                "value": "Tamil Nadu"
+              }
+            },
+            {
+              "id": "RJ",
+              "name": {
+                "value": "Rajasthan"
+              }
+            },
+            {
+              "id": "GJ",
+              "name": {
+                "value": "Gujarat"
+              }
+            },
+            {
+              "id": "DL",
+              "name": {
+                "value": "Delhi"
+              }
+            },
+            {
+              "id": "MH",
+              "name": {
+                "value": "Maharashtra"
+              }
+            }
+          ],
+          "name": "India_States"
+        }
+      ]
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "StateCasesIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "state",
+              "type": "India_States",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.836557962921.937682475720"
+              }
+            }
+          ]
+        },
+        {
+          "name": "SMSIntent",
+          "confirmationRequired": true,
+          "prompts": {
+            "confirmation": "Confirm.Intent.1200425547157"
+          },
+          "slots": []
+        }
+      ],
+      "delegationStrategy": "ALWAYS"
+    },
+    "prompts": [
+      {
+        "id": "Elicit.Slot.836557962921.937682475720",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Which state\u0027s data do you want?"
+          }
+        ]
+      },
+      {
+        "id": "Confirm.Intent.1200425547157",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "An SMS containing links and information about covid nineteen will be sent to your registered phone number. Should I proceed?"
+          }
+        ]
+      }
+    ]
+  },
+  "version": "12"
+}
