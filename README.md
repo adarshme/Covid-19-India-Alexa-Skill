@@ -59,7 +59,7 @@ The setup instructions are divided into three parts. In the first part we'll dea
 7. Click on "API Gateway" and find your API Endpoint URL. It will be required later.
 
 ### Python Code
-1. Click on the "Code" button at the top of the page. Replace all the contents of the editor with [this file's](https://github.com/InfernoCoder11/Covid-19-India-Alexa-Skill/blob/master/Alexa%20Skill/lambda_function.py) contents.
+1. Click on the "Code" button at the top of the Alexa Developer Console page. Replace all the contents of the editor with [this file's](https://github.com/InfernoCoder11/Covid-19-India-Alexa-Skill/blob/master/Alexa%20Skill/lambda_function.py) contents.
 
 2. Somewhere close to the top of the code set the `fromPhoneNumber` variable to the Twilio phone number you own. Set the `lambdaFuncUrl` variable to the URL of the AWS Lambda Endpoint you created.
 
