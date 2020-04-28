@@ -65,7 +65,7 @@ The setup instructions are divided into three parts. In the first part we'll dea
 
 3. Click on "Save" and then "Build".
 
-Congratulations! If all went well you have successfully built this skill yourself. You can test it on your Alexa device (connected to the same account) or in the Alexa Developer Console. To test the SMS sending feature don't forget to add your phone number and give permission to the skill in your Alexa app or at https://alexa.amazon.com/spa/index.html#cards.
+Congratulations! If all went well you have successfully built this skill yourself. You can test it on your Alexa device (connected to the same account) or in the Alexa Developer Console. To test the SMS sending feature don't forget to add your phone number and give permission to the skill in your Alexa mobile app.
 
 ## Supported commands
 - What is the current status
