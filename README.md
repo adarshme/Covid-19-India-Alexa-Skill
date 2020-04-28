@@ -64,3 +64,22 @@ The setup instructions are divided into three parts. In the first part we'll dea
 2. Somewhere close to the top of the code set the `fromPhoneNumber` variable to the Twilio phone number you own. Set the `lambdaFuncUrl` variable to the URL of the AWS Lambda Endpoint you created.
 
 3. Click on "Save" and then "Build".
+
+Congratulations! If all went well you have successfully built this skill yourself. You can test it on your Alexa device (connected to the same account) or in the Alexa Developer Console. To test the SMS sending feature don't forget to add your phone number and give permission to the skill in your Alexa app or at https://alexa.amazon.com/spa/index.html#cards.
+
+## Supported commands
+- What is the current status
+- What is the current status in {state}
+- How many cases are there
+- How many cases are there in {state}
+- What is the current number of cases
+- What is the current number of cases in {state}
+- Send me an SMS
+- Send me information about covid nineteen
+- Send me information about coronavirus
+- Send additional links to me
+- Send additional resources to me
+- Give me additional data for {state}
+- Tell me more details about {state}
+- Extra details for {state}
+- Give me additional information of {state}
